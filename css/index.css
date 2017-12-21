@@ -1,0 +1,323 @@
+/*
+* @Author: lenovo
+* @Date:   2017-12-20 20:43:06
+* @Last Modified by:   lenovo
+* @Last Modified time: 2017-12-21 08:35:09
+*/
+@import url('base.css');
+body{
+	width: 100%;
+	height: auto;
+	background:url('../img/aaa.jpg') no-repeat -30px center ;
+}
+/* 最上边 */
+.dh{
+	width: 1420px;
+	height: 30px;
+	background: #f5f5f5;
+}
+.dh1{
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.dha{
+	width: 202px;
+	height: 100%;
+}
+.dhb{
+	width: 613px;
+	height: 100%;
+}
+.dhb ul{
+	width: 100%;
+	height: 100%;
+}
+.dhb ul li{
+	width: auto;
+	height: 100%;
+	float: left;
+	box-sizing: border-box;
+	padding-right: 17px;
+	padding-left: 17px;
+	font-size: 12px;
+	text-align: center;
+	line-height: 30px;
+
+
+}
+.dhb ul li a{
+		color: #808080;
+}
+.dhb ul li a:hover{
+	color: #0085d0;
+}
+@font-face {
+  font-family: 'iconfont';  /* project id 492971 */
+  src: url('http://at.alicdn.com/t/font_492971_yzzt6fkeacj1c3di.eot');
+  src: url('http://at.alicdn.com/t/font_492971_yzzt6fkeacj1c3di.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_492971_yzzt6fkeacj1c3di.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_492971_yzzt6fkeacj1c3di.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_492971_yzzt6fkeacj1c3di.svg#iconfont') format('svg');
+}
+.iconfont{
+	display: block;
+  font-family: 'iconfont';
+}
+.dhb ul li:nth-child(2) {
+	padding-left: 0;
+	padding-right: 0px;
+}
+.dhb ul li:nth-child(3) {
+
+	padding-right: 0px;
+}
+.dhz1{
+	width: 130px;
+	height: 100%;
+	float: left;
+	font-size: 12px;
+	text-align: center;
+	line-height: 30px;
+	color: #808080;
+}
+.dhz2{
+	display: block;
+	width: 72px;
+	height: 100%;
+	float: left;
+	font-size: 12px;
+	text-align: center;
+	line-height: 30px;
+	color: #e40077;
+
+}
+/* 最上边结束 */
+/* 第二部分 */
+.t2{
+	width:100%;
+	height: 450px;
+	/* background-image: url('../img/TIM图片20171220212020.jpg'); */
+
+}
+.t21{
+	width: 1200px;
+	height: 88px;
+	margin: 0 auto;
+	z-index: 2;
+}
+.t21 a{
+	display: block;
+	width: auto;
+	height: auto;
+	z-index: 2;
+	margin-top: 20px;
+	float: left;
+}
+.t21 a img{
+	display: block;
+}
+.t22{
+	width: 40px;
+	height: 18px;
+	float: left;
+	margin-top: 40px;
+	margin-left: 35px;
+	background: url('../img/slidedown.png') no-repeat right center;
+}
+.t22 a{
+	margin-top:1px;
+	font-size: 12px;
+}
+.sousuo1{
+	float: right;
+	margin-top: 20px;
+}
+.sousuo1 input{
+	width: 498px;
+	height: 36px;
+	box-sizing: border-box;
+	padding-left: 20px;
+	color: #C32117;
+}
+.sousuo1 input:focus{outline: none}
+.sousuo1 a{
+	display: block;
+	width: 80px;
+	height: 36px;
+	background:#C32117;
+	float: right;
+	color: white;
+	margin-top: 0px;
+	line-height: 36px;
+	text-align: center;
+}
+.t3{
+	width: 1200px;
+	height: 47px;
+	margin: 0 auto;
+}
+.t3a{
+
+	width: 237px;
+	height: 100%;
+	background: #3EB4FA;
+	line-height: 47px;
+	text-align: center;
+	color: white;
+	float: left;
+}
+.t3 ul{
+	width: 623px;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	box-sizing: border-box;
+	padding-left: 27px;
+
+}
+.t3 ul li{
+	width: auto;
+	height: 100%;
+	float: left;
+}
+.ab{
+	font-size: 16px;
+	line-height: 47px;
+	text-align: center;
+	padding: 0 29px;
+	color: black;
+}
+li:first-child  .ab{
+	color: #3EB4FA;
+}
+li:hover .ab{
+    color: #3EB4FA;
+}
+/* 第二部分结束 */
+/* 轮播图开始 */
+.banner{
+	width: 1200px;
+	height: 398px;
+	background: red;
+	margin: 0 auto;
+	position: relative;
+}
+.zuo{
+	width: 235px;
+	height: 100%;
+	float: left;
+}
+.zuo ul{
+	width: 100%;
+	height: 100%;
+	background: white;
+}
+.zuo ul li{
+    width: 100%;
+    height: 50px;
+    background: white;
+    box-sizing: border-box;
+    padding: 0 31px;
+    display: flex;
+    justify-content: space-between;
+    line-height: 50px;
+	text-align: center;
+    margin-bottom: 5px;
+}
+.zuo ul li a{
+	color: black;
+	font-size: 16px;
+}
+.zuo ul li:hover a{
+  color: #3EB4FA;
+}
+.zhong{
+	width: 705px;
+	height: 398px;
+	float: left;
+	background: pink;
+		position: relative;
+
+}
+.zhong ul{
+	width: 100%;
+	height: 100%;
+
+}
+.zhong ul li{
+    width: 100%;
+	height: 100%;
+	background: yellow;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.zhong ul li img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.xiaoyuan{
+	width: 150px;
+	height: 10px;
+	background: blue;
+	position: absolute;
+	bottom: 20px;
+	right: 510px;
+}
+/* .yuan{
+	width: auto;
+	height: 10px;
+	background: yellow;
+	position: absolute;
+	bottom: 10px;
+	right: 50px;
+} */
+.banner .xiaoyuan li{
+	width: 10px;
+	height: 10px;
+	background: pink;
+	float: left;
+	margin-right: 5px;
+	border-radius: 50%;
+}
+.banner .xiaoyuan li:last-child{
+	margin-right: 0;
+}
+.you{
+	width: 260px;
+	height: 398px;
+	background: yellowgreen;
+	float: right;
+}
+.you1{
+	width: 100%;
+	height: 178px;
+	box-sizing: border-box;
+	padding-top: 30px;
+}
+.you1 li{
+	width: 86px;
+	height: 74px;
+	float: left;
+}
+.you1 li a p{
+	font-size: 12px;
+	line-height: 24px;
+	margin-top: 40px;
+	text-align: center;
+}
+.youx{
+	width: 230px;
+	height: 190px;
+	background: pink;
+	margin-top: 20px;
+	margin-left:15px;
+	margin-right: 15px;
+	box-sizing: border-box;
+	border-top: 1px solid black;
+}
+/* 轮播图结束 */
