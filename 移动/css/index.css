@@ -27,19 +27,6 @@ body{
 	display: flex;
 	justify-content: space-between;
 }
-.toubuyou div{
-	position: relative;
-}
-.toubuyou div:hover .erweimatu{
-	display: block;
-}
-.toubuyou div .erweimatu{
-	position: absolute;
-	bottom: -100px;
-	left:10px;
-	display: none;
-	z-index: 999;
-}
 .toubuzuo span{
 	color: #808080;
 	font-size: 12px;
@@ -1092,6 +1079,7 @@ nav ul li a:hover{
 	width: 237px;
 	height: 466px;
 	margin: 0;
+	
 	float: left;
 }
 .xinge{
